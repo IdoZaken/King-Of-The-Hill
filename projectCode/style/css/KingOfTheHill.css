@@ -1,0 +1,26 @@
+#primary{
+	height : 100%;
+	width : 100%;
+	background : url("../pictures/BKG.png") no-repeat center;
+	background-size : 100% 100%;
+	text-align : center;
+	color : white;
+}
+#splash{
+/*	color : white;
+	text-align : center;*/
+	margin : 0px;
+	padding : 0px;
+	border : 0px;
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translateX(-50%) translateY(-50%);
+	font-size : 5em;
+}
+/*  home navBar*/
+#navBar{
+	text-align : center;
+}
+
+/* and ov home navBar*/
