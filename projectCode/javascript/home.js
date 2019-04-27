@@ -9,6 +9,8 @@ let home = function($container){
 				"<button id = 'cmdNavForm' class = 'navBar'>Games Form</button>"+
 				"<button id = 'cmdNavSettings' class = 'navBar'>Settings</button>"+
 				"<button id = 'cmdNavToDo' class = 'navBar'>My To-Do List</button>"+
+				"<button id = 'cmdNavLogout' class = 'navBar'>logout</button></br>"+
+				"<button id = 'cmdNavAdmin' class = 'navBar'>ADMIN</button>"+
 		"</div>"+
 		"<div id = 'home'>"+
 			"<main>"+
@@ -28,13 +30,15 @@ let home = function($container){
 				"</footer>"+
 			"</main>"+
 			"<nav>"+
-				"<button id = 'cmdLeagues'>The Leagues</button>"+
-				"<button id = 'cmdHills'>My Hills</button></br>"+
-				"<button id = 'cmdPoints'>Expert Points</button>"+
-				"<button id = 'cmdForm'>Games Form</button></br>"+
-				"<button id = 'cmdSettings'>Settings</button>"+
-				"<button id = 'cmdToDoList'>My To-Do List</button>"+
+				"<button id = 'cmdLeagues'><!--The Leagues--></button>"+
+				"<button id = 'cmdHills'><!--My Hills--></button></br>"+
+				"<button id = 'cmdPoints'><!--Expert Points--></button>"+
+				"<button id = 'cmdForm'><!--Games Form--></button></br>"+
+				"<button id = 'cmdSettings'><!--Settings--></button>"+
+				"<button id = 'cmdToDoList'><!--My To-Do List--></button>"+
 			"</nav>"+
+			"<button id = 'logout'>logout</button></br>"+
+			"<button id = 'cmdAdmin'>ADMIN</button>"+
 		"</div>"
 	);
 	
@@ -45,6 +49,8 @@ let home = function($container){
 	$("#cmdForm").click(homeClickListener);
 	$("#cmdSettings").click(homeClickListener);
 	$("#cmdToDoList").click(homeClickListener);
+	$("#logout").click(homeClickListener);
+	$("#cmdAdmin").click(homeClickListener);
 	
 	//hidden navigation bar buttons listeners
 	$("#cmdNavHome").click(navBarClickListener);
@@ -54,6 +60,9 @@ let home = function($container){
 	$("#cmdNavForm").click(navBarClickListener);
 	$("#cmdNavSettings").click(navBarClickListener);
 	$("#cmdNavToDo").click(navBarClickListener);
+	$("#cmdNavLogout").click(navBarClickListener);
+	$("#cmdNavAdmin").click(navBarClickListener);
+	
 };
 
 //events function
@@ -90,6 +99,19 @@ let homeClickListener = function(e){
 		$("#cmdNavToDo").css("display", "none");		//hide cmdNavToDo from nav bar
 		toDoList($("#home"));		//go to my to-do list screen
 	}
+	else if(targetId == "logout"){
+		firebase.auth().signOut().then(function() {
+			// Sign-out successful.
+			login($("#primary"));	//go to login screen
+		}).catch(function(error) {
+			// An error happened.
+		});
+	}
+	else if(targetId == "cmdAdmin"){
+		$("#navBar").css("visibility", "visible");			//make nav bar visible
+		$("#cmdNavAdmin").css("display", "none");		//hide cmdNavToDo from nav bar
+		admin($("#home")); 		//go to admin screen
+	}
 }
 
 //events function for nav bar buttons
@@ -123,6 +145,18 @@ let navBarClickListener = function(e){
 	else if(targetId == "cmdNavToDo"){
 		$("#cmdNavToDo").css("display", "none");		//hide cmdNavToDo from nav bar
 		toDoList($("#home"));		//go to my to-do list screen
+	}
+	else if(targetId == "cmdNavLogout"){
+		firebase.auth().signOut().then(function() {
+			// Sign-out successful.
+			login($("#primary"));	//go to login screen
+		}).catch(function(error) {
+			// An error happened.
+		});
+	}
+	else if(targetId == "cmdNavAdmin"){
+		$("#cmdNavAdmin").css("display", "none");
+		admin($("#home"));		//go to admin screen
 	}
 }
 

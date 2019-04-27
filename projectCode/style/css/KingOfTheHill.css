@@ -1,3 +1,6 @@
+body{
+	background-color: black;
+}
 #primary{
 	height : 100%;
 	width : 100%;
@@ -18,9 +21,48 @@
 	transform : translateX(-50%) translateY(-50%);
 	font-size : 5em;
 }
+
 /*  home navBar*/
 #navBar{
 	text-align : center;
 }
-
 /* and ov home navBar*/
+
+/*----home style----*/
+#home nav button{
+	height : 10%;
+	width : 10%;
+	padding : 0.5%;
+	margin : 0.5%;
+	border : none;
+}
+#cmdLeagues{
+	background : url("../pictures/leagues.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdHills{
+	background : url("../pictures/hills.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdPoints{
+	background : url("../pictures/points.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdForm{
+	background : url("../pictures/form.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdSettings{
+	background : url("../pictures/settings.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdToDoList{
+	background : url("../pictures/list.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+table{
+	border : 1px solid white;
+	color : white;
+	text-align : center;
+	margin: 0 auto;
+}

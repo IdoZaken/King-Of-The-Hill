@@ -30,6 +30,7 @@ let login = function($container){
 	//buttons listeners
 	$("#cmdRegister").click(loginClickListener);
 	$("#cmdLogin").click(loginClickListener);
+
 	
 };
 
@@ -41,7 +42,17 @@ let loginClickListener = function(e){
 		register($("#primary"));	//go to register screen
 	}
 	else if(targetId == "cmdLogin"){
-		home($("#primary")); 	// go to home screen
+		if($("#terms").prop("checked")){	//if terms is checked then sign in With Email And Password
+			const promise = firebase.auth().signInWithEmailAndPassword($("#email").val(), $("#password").val())
+			.catch(e => console.log(e.message));
+		}
+		/*
+		if(signedIn){
+			home($("#primary"));
+		}*/
 	}
 	
 }
+
+
+

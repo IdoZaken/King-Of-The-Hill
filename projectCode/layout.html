@@ -1,0 +1,67 @@
+<div id = 'admin'>
+	<h1>Admin</h1>
+	<form>
+		<div id = 'createLeague'>
+			<fieldset>
+				<legend>Create League</legend>
+				<label for = 'leagueName'>Name:</label>
+				<input type = 'text' id = 'leagueName' placeholder = 'League Name'/></br>
+				<label for = 'leagueSport'>Sport:</label>
+				<input type = 'text' id = 'leagueSport' placeholder = 'League Sport'/></br>
+				<label for = 'leagueState'>State:</label>
+				<input type = 'text' id = 'leagueState' placeholder = 'League State'/></br>
+				<!--<label for = 'leagueSymbol'>Symbol:</label>
+				<input type = 'text' id = 'leagueSymbol' placeholder = 'League Symbol'/></br>-->
+				<button id = 'cmdCreateLeague'>Create League</button>
+			</fieldset>
+		</div></p>
+		<div id = 'leagues'>leagues
+			<style>
+				table{border: 2px solid;}	
+			</style>
+			<table>
+				<thead>
+					<th>No.</th>
+					<th>Name</th>
+					<th>Sport</th>
+					<th>State</th>
+					<th>delete</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>win</td>
+						<td>foot</td>
+						<td>isr</td>
+						<td><button id = 'delete'>delete</button></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>ido</td>
+						<td>basket</td>
+						<td>kurdistan</td>
+						<td><button id = 'delete'>delete</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div></p>
+		
+		<div id = 'createTeam'>
+			<fieldset>
+				<legend>Create Team</legend>
+				<label for = 'teamName'>Name:</label>
+				<input type = 'text' id = 'teamName' placeholder = 'Team Name'/></br>
+				<label for = 'teamSport'>Sport:</label>
+				<input type = 'text' id = 'teamSport' placeholder = 'Team Sport'/></br>
+				<label for = 'teamState'>State:</label>
+				<input type = 'text' id = 'teamState' placeholder = 'Team State'/></br>
+				<!--<label for = 'teamSymbol'>Symbol:</label>
+				<input type = 'text' id = 'teamSymbol' placeholder = 'Team Symbol'/></br>-->
+				<label for = 'teamLeague'>League:</label>
+				<input type = 'text' id = 'teamLeague' placeholder = 'Team League'/></br>
+				<button id = 'cmdCreateTeam'>Create Team</button>
+			</fieldset>
+		</div></p>
+		<div id = teams>teams</div>
+	</form>
+</div>
