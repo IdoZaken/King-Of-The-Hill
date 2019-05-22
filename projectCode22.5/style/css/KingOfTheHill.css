@@ -1,0 +1,233 @@
+body{
+    /* background-color: black; */
+    background-image: url("../pictures/BKG.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+#primary{
+	height : 100%;
+	width : 100%;
+	/* background : url("../pictures/BKG.png") no-repeat center;
+	background-size : 100% 100%; */
+	text-align : center;
+	color : white;
+}
+#splash{
+/*	color : white;
+	text-align : center;*/
+	margin : 0px;
+	padding : 0px;
+	border : 0px;
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translateX(-50%) translateY(-50%);
+	font-size : 5em;
+}
+
+/*  home navBar*/
+#navBar{
+	text-align : center;
+}
+/* and ov home navBar*/
+
+/*----home style----*/
+#home nav button{
+	height : 10%;
+	width : 10%;
+	padding : 0.5%;
+	margin : 0.5%;
+	border : none;
+}
+#cmdLeagues{
+	background : url("../pictures/leagues.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdHills{
+	background : url("../pictures/hills.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdPoints{
+	background : url("../pictures/points.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdForm{
+	background : url("../pictures/form.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdSettings{
+	background : url("../pictures/settings.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdToDoList{
+	background : url("../pictures/list.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+table{
+	border : 1px solid white;
+	color : white;
+	text-align : center;
+	margin: 0 auto;
+}
+/*----and of home style----*/
+
+
+/*----games style----*/
+
+.game{
+	height: auto;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: white;
+}
+
+.game #time{
+    margin : auto;
+    height: auto;
+    width : 78%;
+    display: inline-block;
+}
+.game #locked{
+    height: auto;
+    width : 20%;
+    display: inline-block;
+}
+.game #lside{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+.game #center{
+	height: auto;
+    width : 50%;
+	display:table-cell;
+	vertical-align: middle;
+}
+.game #x12{
+	display: block;
+	margin : auto;
+	width : 50%;
+	height: auto;
+}
+.game #guestScore{
+    height : 20px;
+    width : 20%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+.game #homeScore{
+    border: 0.5px solid white;
+    border-radius: 6px;
+    height : 20px;
+    width : 20%;
+    display: inline-block;
+}
+.game #goToGame{
+    display: block;
+    margin : auto;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+.game #rside{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+
+/*-------end of game style---*/
+
+/*--- one game screen style ----*/
+/* #oneGameScreen{
+    background-color: darkblue;
+    /* color: white;
+    text-align: center; */
+/*}   */
+
+#oneGameScreen #yourMatchScore{
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* #oneGameScreen #expertTip{
+    background-color: black;
+}
+
+#oneGameScreen #expertTip #headline{
+    background-color: blue;
+} */
+
+#oneGameScreen #expertTip #one{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #expertTip #x{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #expertTip #two{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #cmdSubmit{
+    width: 75%;
+}
+
+/* #oneGameScreen #gamesList{
+    height: auto;
+	width : 100%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+} */
+#oneGameScreen #guestWithOutcome{
+    height : 20%;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+#oneGameScreen #guestWithOutcome #guestScore{
+    height : 20%;
+    width : 20%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+#oneGameScreen #guestWithOutcome #homeScore{
+    border: 0.5px solid white;
+    border-radius: 6px;
+    height : 20%;
+    width : 20%;
+    display: inline-block;
+}
+#oneGameScreen #alternativeOutcome{
+    height : 20%;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+/*---end of one game screen style ----*/
