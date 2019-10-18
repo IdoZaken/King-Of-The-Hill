@@ -1,0 +1,523 @@
+body{
+    background-image: url("../pictures/BKG.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+#primary{
+	height : 100%;
+	width : 100%;
+	text-align : center;
+	color : white;
+}
+#splash{
+	margin : 0px;
+	padding : 0px;
+	border : 0px;
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translateX(-50%) translateY(-50%);
+	font-size : 84%;
+}
+#splash h1{
+    font-size: 5em;
+}
+#splash h5{
+    font-size: 2em;
+}
+
+/*=============== Login ============*/
+#login{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+#login header{
+    height: 20%;
+    width: 50%;
+    margin: auto;
+    font-size: 50%;
+    line-height:350%;
+}
+#login header h1{
+    font-family: "Aharoni";
+    font-size: 5em;
+    font-weight: lighter;
+}
+#login  header h5{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: lighter;
+}
+#login ::placeholder{
+    color: white;
+}
+#login main{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+#login main #email{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#login main #password{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#login footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 13, 44, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+#login footer #cmdRegister{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(220, 94, 97, 0.9);
+    font-size: 100%;
+}
+#login footer #cmdRegister:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgb(220, 94, 97);
+    text-decoration: underline;
+}
+#login #cmdForgotPassword{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    font-size: 100%;
+}
+#login #cmdForgotPassword:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: white;
+    text-decoration: underline;
+}
+#login #cmdLogin{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(220, 94, 97);
+    color: white;
+    font-weight: bold;
+}
+#login #termsOfUse{
+    float: left;
+}
+#login #termsOfUse #cmdTerms{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    font-size: 100%;
+}
+#login #termsOfUse #cmdTerms:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: white;
+    text-decoration: underline;
+}
+#login #termsOfUse #terms{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0); 
+}
+/*===============end of Login ============*/
+/*=============== register ============*/
+#register{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+#register header{
+    height: 20%;
+    width: 50%;
+    margin: auto;
+    font-size: 50%;
+    line-height:350%;
+
+}
+#register header h1{
+    font-family: "Aharoni";
+    font-size: 5em;
+    font-weight: lighter;
+}
+#register  header h5{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: lighter;
+}
+#register ::placeholder{
+    color: white;
+}
+#register main{
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+#register main #email{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register main #password{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register main #name{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register main #confirmPass{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 13, 44, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+#register footer #cmdLogin{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(220, 94, 97, 0.9);
+    font-size: 100%;
+}
+#register footer #cmdLogin:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgb(220, 94, 97);
+    text-decoration: underline;
+}
+#register #cmdRegister{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(220, 94, 97);
+    color: white;
+    font-weight: bold;
+}
+#register #termsOfUse{
+    float: left;
+}
+#register #termsOfUse #cmdTerms{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    font-size: 100%;
+}
+#register #termsOfUse #cmdTerms:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: white;
+    text-decoration: underline;
+}
+#register #termsOfUse #terms{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+/*===============end of register ============*/
+
+/*  home navBar*/
+#navBar{
+	text-align : center;
+}
+/* and ov home navBar*/
+
+/*----home style----*/
+#home nav button{
+	height : 10%;
+	width : 10%;
+	padding : 0.5%;
+	margin : 0.5%;
+	border : none;
+}
+#cmdLeagues{
+	background : url("../pictures/leagues.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdHills{
+	background : url("../pictures/hills.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdPoints{
+	background : url("../pictures/points.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdForm{
+	background : url("../pictures/form.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdSettings{
+	background : url("../pictures/settings.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdToDoList{
+	background : url("../pictures/list.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+table{
+	border : 1px solid white;
+	color : white;
+	text-align : center;
+	margin: 0 auto;
+}
+/*----and of home style----*/
+
+
+/*----games style----*/
+
+.game{
+	height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: white;
+}
+
+.game #time{
+    margin : auto;
+    height: auto;
+    width : 78%;
+    display: inline-block;
+}
+.game #locked{
+    height: auto;
+    width : 20%;
+    display: inline-block;
+}
+.game main{
+    display: inline-block;
+}
+.game #lside{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+.game #center{
+	height: auto;
+    width : 50%;
+	display:table-cell;
+	vertical-align: middle;
+}
+.game #x12{
+	display: block;
+	margin : auto;
+	width : 50%;
+	height: auto;
+}
+.game #guestScore{
+    height : 20px;
+    width : 20%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+.game #homeScore{
+    border: 0.5px solid white;
+    border-radius: 6px;
+    height : 20px;
+    width : 20%;
+    display: inline-block;
+}
+.game #goToGame{
+    display: block;
+    margin : auto;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+.game #rside{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+
+/*-------end of game style---*/
+
+/*--- one game screen style ----*/
+/* #oneGameScreen{
+    background-color: darkblue;
+    /* color: white;
+    text-align: center; */
+/*}   */
+
+#oneGameScreen #yourMatchScore{
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* #oneGameScreen #expertTip{
+    background-color: black;
+}
+
+#oneGameScreen #expertTip #headline{
+    background-color: blue;
+} */
+
+#oneGameScreen #expertTip #one{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #expertTip #x{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #expertTip #two{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #cmdSubmit{
+    width: 75%;
+}
+
+/* #oneGameScreen #gamesList{
+    height: auto;
+	width : 100%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+} */
+#oneGameScreen #guestWithOutcome{
+    height : 20%;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+#oneGameScreen #guestWithOutcome #guestScore{
+    height : 20%;
+    width : 20%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+#oneGameScreen #guestWithOutcome #homeScore{
+    border: 0.5px solid white;
+    border-radius: 6px;
+    height : 20%;
+    width : 20%;
+    display: inline-block;
+}
+#oneGameScreen #alternativeOutcome{
+    height : 20%;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+/*---end of one game screen style ----*/
+
+/* ----Round Games List at Admin------ */
+#admin #roundGamesList .gameInRound{
+    height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: white;
+}
+
+#admin #roundGamesList .gameInRound #time{
+    margin : auto;
+    height: auto;
+    width : 78%;
+    display: inline-block;
+}
+#admin #roundGamesList .gameInRound #locked{
+    height: auto;
+    width : 20%;
+    display: inline-block;
+}
+#admin #roundGamesList .gameInRound main{
+    display: inline-block;
+}
+#admin #roundGamesList .gameInRound #lSide{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+#admin #roundGamesList .gameInRound #middle{
+	height: auto;
+    width : 50%;
+	display:table-cell;
+	vertical-align: middle;
+}
+#admin #roundGamesList .gameInRound #rSide{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+/* ----End of Round Games List at Admin------ */
+
