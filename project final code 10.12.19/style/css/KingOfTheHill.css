@@ -1,0 +1,1270 @@
+body{
+    background-image: url("../pictures/BKG.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+#primary{
+	height : 100%;
+	width : 100%;
+	text-align : center;
+	color : white;
+}
+#splash{
+	margin : 0px;
+	padding : 0px;
+	border : 0px;
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translateX(-50%) translateY(-50%);
+	font-size : 84%;
+}
+#splash h1{
+    font-size: 5em;
+}
+#splash h5{
+    font-size: 2em;
+}
+
+/*=============== Login ============*/
+#login{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+#login header{
+    height: 20%;
+    width: 50%;
+    margin: auto;
+    font-size: 50%;
+    line-height:350%;
+}
+#login header h1{
+    font-family: "Aharoni";
+    font-size: 5em;
+    font-weight: lighter;
+}
+#login header h5{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: lighter;
+}
+#login ::placeholder{
+    color: white;
+}
+#login main{
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+#login main #email{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#login main #password{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#login footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 13, 44, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+#login footer #cmdRegister{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(220, 94, 97, 0.9);
+    font-size: 100%;
+}
+#login footer #cmdRegister:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgb(220, 94, 97);
+    text-decoration: underline;
+}
+#login #cmdForgotPassword{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    font-size: 100%;
+}
+#login #cmdForgotPassword:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: white;
+    text-decoration: underline;
+}
+#login #cmdLogin{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(220, 94, 97);
+    color: white;
+    font-weight: bold;
+}
+#login #termsOfUse{
+    float: left;
+}
+#login #termsOfUse #cmdTerms{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    font-size: 100%;
+}
+#login #termsOfUse #cmdTerms:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: white;
+    text-decoration: underline;
+}
+#login #termsOfUse #terms{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0); 
+}
+/*===============end of Login ============*/
+/*=============== register ============*/
+#register{
+    height: 100%;
+    width: 100%;
+    font-family: Arial;
+}
+#register header{
+    height: 20%;
+    width: 50%;
+    margin: auto;
+    font-size: 50%;
+    line-height:350%;
+
+}
+#register header h1{
+    font-family: "Aharoni";
+    font-size: 5em;
+    font-weight: lighter;
+}
+#register  header h5{
+    font-family: Arial;
+    font-size: 2em;
+    font-weight: lighter;
+}
+#register ::placeholder{
+    color: white;
+}
+#register main{
+    height: 70%;
+    width: 50%;
+    margin: auto;
+}
+#register main #email{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register main #password{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register main #name{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register main #confirmPass{
+    /* height: 70%; */
+    width: 100%;
+    font-size: 200%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+#register footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 13, 44, 0.3);
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+#register footer #cmdLogin{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(220, 94, 97, 0.9);
+    font-size: 100%;
+}
+#register footer #cmdLogin:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgb(220, 94, 97);
+    text-decoration: underline;
+}
+#register #cmdRegister{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(220, 94, 97);
+    color: white;
+    font-weight: bold;
+}
+#register #termsOfUse{
+    float: left;
+}
+#register #termsOfUse #cmdTerms{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: rgba(255, 255, 255, 0.8);
+    float: right;
+    font-size: 100%;
+}
+#register #termsOfUse #cmdTerms:hover{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: white;
+    text-decoration: underline;
+}
+#register #termsOfUse #terms{
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+/*===============end of register ============*/
+
+/*  home navBar*/
+#navBar{
+	text-align : center;
+}
+
+.navBar{
+    border: none;
+}
+#navBar #cmdNavHome{
+    background: url("../pictures/homeM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+	margin: 0.25%;
+}
+#navBar #cmdNavLeagues{
+    background: url("../pictures/footballM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+	margin: 0.25%;
+}
+#navBar #cmdNavHills{
+    background: url("../pictures/hillM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+	margin: 0.25%;
+}
+#navBar #cmdNavSettings{
+    background: url("../pictures/settingsM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+	margin: 0.25%;
+}
+#navBar #cmdNavLogout{
+    background: url("../pictures/logoutM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+	margin: 0.25%;
+}
+#navBar #cmdNavAdmin{
+    background: url("../pictures/adminM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+	margin: 0.25%;
+}
+
+/* and ov home navBar*/
+
+/*----home style----*/
+#home nav button{
+	height : 10%;
+	width : 10%;
+	padding : 0.5%;
+	margin : 0.5%;
+	border : none;
+}
+#cmdLeagues{
+	background : url("../pictures/leagues.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdHills{
+	background : url("../pictures/hills.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdPoints{
+	background : url("../pictures/points.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdForm{
+	background : url("../pictures/form.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdSettings{
+	background : url("../pictures/settings.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+#cmdToDoList{
+	background : url("../pictures/list.jpg") no-repeat center;
+	background-size : 100% 100%;
+}
+table{
+	border : 1px solid white;
+	color : white;
+	text-align : center;
+	margin: 0 auto;
+}
+
+#home footer #logout{
+    background: url("../pictures/logoutM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+    border: none;
+	margin: 0.25%;
+}
+#home footer #cmdAdmin{
+    background: url("../pictures/adminM.png") no-repeat center;
+    background-size : 100% 100%;
+    background-color: rgba(35, 66, 112, 1);
+    height: 50px;
+    width: 50px;
+    border: none;
+	margin: 0.25%;
+}
+/*----and of home style----*/
+
+
+/*----games style----*/
+#games{
+    font-family: arial;
+    width: 75%;
+    margin: auto;
+}
+#games #gamesbackBtn{
+    width: 50%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.game{
+	height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: white;
+}
+.game #submittedForm{
+    margin : auto;
+    height: auto;
+    width : 20%;
+    display: inline-block;
+}
+.game #time{
+    margin : auto;
+    height: auto;
+    width : 58%;
+    display: inline-block;
+}
+.game #locked{
+	margin : auto;
+    height: auto;
+    width : 20%;
+    display: inline-block;
+}
+.game main{
+    display: inline-block;
+}
+.game #lside{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+.game #center{
+	height: auto;
+    width : 50%;
+	display:table-cell;
+	vertical-align: middle;
+}
+.game #x12{
+	display: block;
+	margin : auto;
+	width : 50%;
+	height: auto;
+}
+.game #guestScore{
+    height : 20px;
+    width : 20%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+.game #homeScore{
+    border: 0.5px solid white;
+    border-radius: 6px;
+    height : 20px;
+    width : 20%;
+    display: inline-block;
+}
+.game #goToGame{
+    display: block;
+    margin : auto;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+}
+.game #rside{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+
+/*-------end of game style---*/
+
+/*--- one game screen style ----*/
+#oneGameScreenBackBtn{
+    width: 33%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#oneGameScreen #yourMatchScore{
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+#oneGameScreen #expertTip{
+    width: 75%;
+	padding : 0.5%;
+	margin : auto;
+    text-align: center;
+}
+#oneGameScreen #expertTip #one{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #expertTip #x{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #expertTip #two{
+    width : 30%;
+    display: inline-block;
+    border: 0.5px solid white;
+    border-radius: 6px;
+}
+
+#oneGameScreen #cmdSubmit{
+    width: 75%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#oneGameScreen ::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+
+#oneGameScreen #guessWithOutcome{
+    height : 20%;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+#oneGameScreen #guessWithOutcome #guestScore{
+    display: inline-block;
+    width: 10%;
+}
+#oneGameScreen #guessWithOutcome #guestScore #guestGuess{
+    width: 90%;
+    background: rgba(255, 255, 255, 0);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+}
+
+#oneGameScreen #guessWithOutcome #homeScore{
+    display: inline-block;
+    width: 10%;
+}
+#oneGameScreen #guessWithOutcome #homeScore #homeGuess{
+    width: 90%;
+    background: rgba(255, 255, 255, 0);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+}
+
+
+#oneGameScreen #alternativeOutcome{
+    height : 20%;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+#oneGameScreen #alternativeOutcome #alternativeGuestScore{
+    display: inline-block;
+    width: 10%;
+}
+#oneGameScreen #alternativeOutcome #alternativeGuestScore #guestGuess{
+    width: 90%;
+    background: rgba(255, 255, 255, 0);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+}
+
+#oneGameScreen #alternativeOutcome #alternativeHomeScore{
+    display: inline-block;
+    width: 10%;
+}
+#oneGameScreen #alternativeOutcome #alternativeHomeScore #homeGuess{
+    width: 90%;
+    background: rgba(255, 255, 255, 0);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+}
+
+
+
+#oneGameScreen #alternativeOutcome2{
+    height : 20%;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+#oneGameScreen #alternativeOutcome2 #alternativeGuestScore{
+    display: inline-block;
+    width: 10%;
+}
+#oneGameScreen #alternativeOutcome2 #alternativeGuestScore #guestGuess{
+    width: 90%;
+    background: rgba(255, 255, 255, 0);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+}
+
+#oneGameScreen #alternativeOutcome2 #alternativeHomeScore{
+    display: inline-block;
+    width: 10%;
+}
+#oneGameScreen #alternativeOutcome2 #alternativeHomeScore #homeGuess{
+    width: 90%;
+    background: rgba(255, 255, 255, 0);
+    border-color: white;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    text-align: center;
+    color: white;
+}
+
+/*---end of one game screen style ----*/
+
+/* ----Round Games List at Admin------ */
+#admin #roundGamesList .gameInRound{
+    height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: white;
+}
+
+#admin #roundGamesList .gameInRound #time{
+    margin : auto;
+    height: auto;
+    width : 78%;
+    display: inline-block;
+}
+#admin #roundGamesList .gameInRound #locked{
+    height: auto;
+    width : 20%;
+    display: inline-block;
+}
+#admin #roundGamesList .gameInRound main{
+    display: inline-block;
+}
+#admin #roundGamesList .gameInRound #lSide{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+#admin #roundGamesList .gameInRound #middle{
+	height: auto;
+    width : 50%;
+	display:table-cell;
+	vertical-align: middle;
+}
+#admin #roundGamesList .gameInRound #rSide{
+    height: auto;
+    width : 20%;
+	display:table-cell;
+	vertical-align: middle;
+}
+/* ----End of Round Games List at Admin------ */
+/* --------------------settings --------------------- */
+#settings{
+    font-family: Arial;
+    width: 60%;
+    margin: auto;
+}
+
+#settings #myProfile{
+    border-radius: 5px;
+    height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+}
+#settings #myProfile #topProfile{
+    text-align: left;
+}
+#settings .myProfile{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
+    line-height: 150%;
+}
+#settings .myProfile input{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    text-align: right;
+    width: 70%;
+    color: white;
+}
+#settings .myProfile ::placeholder{
+    color: white;
+}
+
+#settings #myPreferences{
+    border-radius: 5px;
+    height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: left;
+    line-height: 200%;
+}
+#settings #myPreferences #topPreferences{
+    text-align: left;
+}
+#settings #myPreferences .switch{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#settings #myPreferences .switch{ /* The switch - the box around the slider */
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+#settings #myPreferences .switch input{/* Hide default HTML checkbox */
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+#settings #myPreferences .slider{/* The slider */
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+#settings #myPreferences .slider:before{
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+#settings #myPreferences input:checked + .slider{
+    background-color: #6FBB82;
+}
+  
+#settings #myPreferences input:focus + .slider{
+    box-shadow: 0 0 1px #6FBB82;
+}
+#settings #myPreferences input:checked + .slider:before{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+#settings #myPreferences .slider.round{
+    border-radius: 34px;
+}
+  
+#settings #myPreferences .slider.round:before{
+    border-radius: 50%;
+} 
+
+#settings #myMainMounntain{
+    border-radius: 5px;
+    height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: left;
+}
+#settings #myMainMounntain #terms{
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    color: white;
+    font-size: 100%;
+    width: 100%;
+    text-align: left;
+}
+
+#settings #saveChanges{
+    width: 75%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* -------------------end of settings---------------- */
+
+/* --------------hills--------------- */
+#hills{
+    font-family: Arial;
+    width: 50%;
+    margin: auto;
+}
+#hills #privateHillsTitel{
+    font-weight: bold;
+}
+
+#hills .btnHill{
+    width: 100%;
+    background-color: rgba(35, 66, 112, 1);
+    /* border: none; */
+    border-width: 0.5px;
+    border-radius: 10px;
+    color: white;
+    font-family: arial;
+}
+#hills .btnHill aside{
+    height: 100%;
+    width : 20%;
+	display: inline-table;
+    vertical-align: middle;
+    padding: auto;
+    margin: auto;
+}
+#hills .btnHill main{
+    height: 100%;
+    width : 75%;
+	display: inline-table;
+    vertical-align: middle;
+    padding: auto;
+    margin: auto;
+    text-align: left;
+    line-height: 125%;
+}
+#hills .btnHill main header{
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: bold;
+}
+#hills .btnHill main section{
+    font-size: 75%;
+    font-weight: lighter;
+}
+#hills .btnHill main footer{
+    font-size: 85%;
+    text-transform: uppercase;
+}
+#hills .btnHill main footer span{
+    color: rgb(220, 94, 97);
+}
+#hills .btnHill main footer #rank{
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+}
+#hills .btnHill main footer #score{
+    display: inline-block;
+    padding: auto;
+    margin: auto;
+    margin-right: 3%;
+}
+#hills #buttons{
+    width: 100%;
+}
+#hills #buttons .buttons{
+    width: 49%;
+    color: white;
+    background-color: #234372;
+    font-size: 125%;
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+
+/* --------------end of hills--------------- */
+/* -------------invitations Screen--------------- */
+
+#invitationsScreen{
+    font-family: Arial;
+    width: 50%;
+    margin: auto;
+}
+#invitationsScreen header{
+    font-weight: bold;
+}
+#invitationsScreen #btnBack{
+    width: 75%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    /* font-size: 105%; */
+}
+#invitationsScreen .invite{
+    height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: left;
+    color: white;
+}
+#invitationsScreen .invite main{
+    display: inline-block;
+    width: 48%;
+}
+#invitationsScreen .invite main #hillName{
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: bold;
+}
+#invitationsScreen .invite main #creator{
+    font-size: 90%;
+    font-weight: lighter;
+}
+#invitationsScreen .invite main #league{
+    font-size: 75%;
+    font-weight: lighter;
+}
+#invitationsScreen .invite aside{
+    display: inline-block;
+    width: 48%;
+}
+#invitationsScreen .invite aside #btnAccept{
+    width: 45%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #6FBB82;
+    border-color: white;
+    /* border-radius: 10px; */
+    font-weight: bold;
+    border: none;
+    font-size: 125%;
+    font-weight: lighter;
+}
+#invitationsScreen .invite aside #btnIgnore{
+    width: 45%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: rgb(220, 94, 97);
+    border-color: white;
+    /* border-radius: 10px; */
+    font-weight: bold;
+    border: none;
+    font-size: 125%;
+    font-weight: lighter;
+}
+
+/* -------------end of invitations Screen--------------- */
+/* -------------------specificHill screen----------------- */
+#specificHill{
+    font-family: arial;
+    width: 50%;
+    margin: auto;
+}
+#specificHill #hillName{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#specificHill #hillLeague{
+    font-weight: lighter;
+}
+#specificHill header button{
+    width: 60%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#specificHill .containerRating{
+    height: fit-content;
+	width : 75%;
+	padding : 0.5%;
+	margin : auto;
+    background: rgba(255, 255, 255, 0.2);
+    text-align: left;
+    color: white;
+}
+#specificHill .containerRating span{
+    color: rgb(220, 94, 97);
+    font-weight: bold;
+
+}
+#specificHill main #king .icon{
+    background : url("../pictures/king.png") no-repeat center;
+    background-size : 100% 100%;
+    height : 100%;
+	width : 10%;
+	padding : 5%;
+    margin-right : 5%;
+    margin-left: 5%;
+    border : none;
+    float: left;
+    
+}
+#specificHill main #prince .icon{
+    background : url("../pictures/prince.png") no-repeat center;
+    background-size : 100% 100%;
+    height : 100%;
+	width : 10%;
+	padding : 5%;
+    margin-right : 5%;
+    margin-left: 5%;
+    border : none;
+    float: left;
+    
+}
+#specificHill main #knight .icon{
+    background : url("../pictures/knight.png") no-repeat center;
+    background-size : 100% 100%;
+    height : 100%;
+	width : 10%;
+	padding : 5%;
+    margin-right : 5%;
+    margin-left: 5%;
+    border : none;
+    float: left;
+    
+}
+#specificHill main #userRank .icon{
+    /*background : url("../pictures/king.png") no-repeat center;
+    background-size : 100% 100%;*/
+    height : 100%;
+	width : 10%;
+	padding : 5%;
+    margin-right : 5%;
+    margin-left: 5%;
+    border : none;
+    float: left;
+    
+}
+#specificHill footer button{
+    width: 60%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* ------------------- end of specificHill screen----------------- */
+
+/* -----------------------manage Specific Hill---------------------------- */
+#manageSpecificHill{
+    font-family: arial;
+    width: 50%;
+    margin: auto;
+}
+#manageSpecificHill header button{
+    width: 60%;
+    padding : 0.5%;
+    margin : auto;
+    color: white;
+    background-color: #234372;
+    border-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#manageSpecificHill table {
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+#manageSpecificHill th, td {
+    padding: 10px;
+    background: #234372;
+    border-bottom: 1px solid white; 
+}
+
+#manageSpecificHill table button{
+    background-color: rgb(220, 94, 97);
+    border: none;
+    color: white;
+    font-weight: lighter;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+#manageSpecificHill #invitedList{
+    width: 55%;
+    margin : auto;
+}
+#manageSpecificHill #invitedList ol{
+    text-align: left;
+}
+
+
+#manageSpecificHill #newInvitation button{
+    background-color: #6FBB82;
+    border: none;
+    color: white;
+    font-weight: lighter;
+    border-radius: 10px;
+    padding: 10px;
+}
+#manageSpecificHill #closeThisHill button{
+    background-color: rgb(220, 94, 97);
+    border: none;
+    color: white;
+    font-weight: lighter;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* -----------------------end of manage Specific Hill---------------------------- */
+
+/* -------------------------Create Hill---------------------------------- */
+
+#createHill{
+    font-family: arial;
+    width: 30%;
+    margin: auto;
+}
+
+#createHill #cmdAddFriend{
+    padding: 1%;
+    background: #234372;
+    border-bottom: 1px solid white; 
+    color: white;
+    font-weight: lighter;
+    border-radius: 10px;
+    border-width: 0.5px;
+	margin: 0 1em;
+}
+
+#createHill #invitationList{
+    width: 100%;
+    margin : auto;
+    line-height: 150%
+}
+#createHill #invitationList ul span{
+    float: left;
+    display:table-cell;
+}
+#createHill #invitationList ul input[type=button]{
+    background-color: rgb(220, 94, 97);
+    border: none;
+    color: white;
+    font-weight: lighter;
+    float: right;
+}
+#createHill #cmdCreate{
+    background-color: #6FBB82;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    font-size: 105%;
+	margin: 0 1em;
+}
+#createHill #cmdCancel{
+    background-color: rgb(220, 94, 97);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    width: 40%;
+    font-size: 105%;
+	margin: 0 1em;
+}
+/* -------------------------end of Create Hill---------------------------------- */
+/* ---------------leagues----------------------- */
+#leagues{
+    font-family: arial;
+    width: 30%;
+    margin: auto;
+}
+/* #leagues header{
+    font-weight: bold;
+} */
+#leagues #filter{
+    display: none;
+}
+#leagues #list ul{
+    list-style-type: none;
+}
+#leagues #list button{
+    width: 100%;
+    background-color: rgba(35, 66, 112, 1);
+    border-width: 0.5px;
+    border-radius: 10px;
+    color: white;
+    font-family: arial;
+    text-align: left;
+}
+
+#leagues #list button aside{
+    height: 50px;
+    width : 20%;
+	display: inline-table;
+    vertical-align: middle;
+    padding: auto;
+    margin: auto;
+    background: url("../pictures/logo.jpg") no-repeat center ;
+    background-size: 100% 100%;
+}
+#leagues #list button main{
+    height: 100%;
+    width : 75%;
+	display: inline-table;
+    vertical-align: middle;
+    padding: auto;
+    margin: auto;
+    text-align: left;
+    line-height: 125%;
+}
+
+/* ---------------end of leagues----------------------- */
